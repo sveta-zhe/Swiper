@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  background: #111;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 80vw;
+  height: 80vh;
+  
+}
+.swiper-slide {
+background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  cursor: pointer;
+  color: #fff;
+}
