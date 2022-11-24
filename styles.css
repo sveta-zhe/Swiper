@@ -21,7 +21,7 @@ body {
   
 }
 .swiper-slide {
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
   position: relative;
